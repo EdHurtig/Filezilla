@@ -16,13 +16,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-if platform?("windows")
-    windows_package "FileZilla Client 3.6.0.2" do
-        source node['filezilla']['http_url']
-        installer_type :custom
-        options "/S /user=all"
-        action :install
-    end
+if platform?('windows')
+  windows_package 'FileZilla Client 3.6.0.2' do
+    source node['filezilla']['http_url']
+    installer_type :custom
+    options '/S /user=all'
+    action :install
+  end
 else
   Chef::Log.warn('FileZilla Client can only be installed on the Windows platform using this cookbook.')
 end
