@@ -7,5 +7,8 @@ description      'Installs/Configures FileZilla Client for Windows'
 version          '1.0.1'
 
 supports         'windows'
+supports         'debian'
+supports         'rhel'
 
 depends          'windows'
+depends          'yum'

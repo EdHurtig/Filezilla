@@ -14,7 +14,8 @@ Platform
 * Windows Server 2008 (R1, R2)
 * Windows 2003 (R1 / R2)
 * Windows XP
-
+* Debian
+* RHEL
 
 Attributes
 ==========
