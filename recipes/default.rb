@@ -37,5 +37,5 @@ elsif platform_family?('rhel')
 
   package 'filezilla'
 else
-    fail 'This cookbook does not support this platform'
+  fail 'This cookbook does not support this platform'
 end
